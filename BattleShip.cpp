@@ -713,7 +713,7 @@ int playMenu(int game1[][10][5], int & player)
 			else if (pick == 'S')
 			{
 				int show;
-				cout << "\t 1 or 2 whitch board? ";
+				cout << "\t 1 or 2 which board? ";
 				cin >> show;
 				display(game1, show - 1, 1);
 			}
